@@ -1,7 +1,4 @@
-# 💻 Frontend Practical Test – Skatcher Footer
-
-This project is a responsive implementation of the footer section based on the provided Figma design. It was built using React.js and Tailwind CSS v3 with a mobile-first approach, ensuring compatibility across mobile (375px), tablet (768px), and desktop (1440px) viewports. The layout emphasizes clean utility-based classes, accessibility, and performance.
-
+# 💻 Frontend Practical Test – Skatcher
 ## ⚙️ Setup Instructions
 
 1. Clone the repository:
