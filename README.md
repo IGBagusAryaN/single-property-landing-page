@@ -1,12 +1,78 @@
-# React + Vite
+# 💻 Frontend Practical Test – Skatcher Footer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a responsive implementation of the footer section based on the provided Figma design. It was built using React.js and Tailwind CSS v3 with a mobile-first approach, ensuring compatibility across mobile (375px), tablet (768px), and desktop (1440px) viewports. The layout emphasizes clean utility-based classes, accessibility, and performance.
 
-Currently, two official plugins are available:
+## ⚙️ Setup Instructions
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/skatcher-footer.git
+cd skatcher-footer
+```
 
-## Expanding the ESLint configuration
+2. Install dependencies:
+```bash
+npm install
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. Start development server:
+```bash
+npm run dev
+```
+
+4. Build for production:
+```bash
+npm run build
+```
+
+## 🛠️ Technologies Used
+- React.js + Vite
+- Tailwind CSS v3.14
+- Framer Motion
+
+## 🎨 Tailwind CSS Configuration Decision
+Tailwind was configured via `tailwind.config.js` with extended custom colors and responsive breakpoints (`md`, `lg`). The purge/content settings are enabled to remove unused classes in production for better performance.
+
+```js
+// tailwind.config.js
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+        dark: "#1E1E1E",
+        gray: {
+          400: "#A1A1A1",
+          500: "#6B7280",
+          700: "#374151"
+        }
+      }
+    }
+  },
+  plugins: [],
+}
+```
+
+## 💡 Design Decisions 
+- Determining the appropriate size and layout for videos or images within a responsive layout
+- Creating actions for search buttons and menus in the mobile version
+
+## Challenges
+- Creating responsive layouts for mobile, tablet, and desktop
+- Adjusting details in Figma
+
+## 🌐 Browser Compatibility
+✅ Google Chrome  
+✅ Microsoft Edge  
+
+## ⚡ Performance Optimizations
+- Tailwind Just-In-Time (JIT) mode enabled for efficient build
+- Purged unused CSS during production builds
+- Optimized images with proper dimensions
+- No unnecessary dependencies added
+
+## 📸 Preview
+![Preview Screenshot](./public/preview.png)
+
+## 📄 License
+This project is for testing and evaluation purposes only.

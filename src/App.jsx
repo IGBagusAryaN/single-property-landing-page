@@ -1,12 +1,12 @@
-import About from "./component/about";
-import Benefit from "./component/benefit";
-import Contact from "./component/contact";
-import ContactInformation from "./component/contact-information";
-import Footer from "./component/footer";
-import Hero from "./component/hero";
-import NavigationBar from "./component/navbar";
-import Overview from "./component/overview";
-import Subscribe from "./component/subscribe";
+import About from "./component/sections/about";
+import Benefit from "./component/sections/benefit";
+import Contact from "./component/sections/contact";
+import ContactInformation from "./component/sections/contact-information";
+import Footer from "./component/sections/footer";
+import NavigationBar from "./component/sections/navbar";
+import Overview from "./component/sections/overview";
+import Hero from "./component/sections/hero";
+import Subscribe from "./component/sections/subscribe";
 
 function App() {
   return (
