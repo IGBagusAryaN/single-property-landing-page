@@ -13,15 +13,30 @@ const slidesMobile = [
   "/assets/images/hero6.jpg",
 ];
 
+const Stats = [
+  {
+    icon: "/assets/icon/point-location.svg",
+    value: "4.500",
+    label: "Our Square Feets",
+    alt: "Location Icon",
+  },
+  {
+    icon: "/assets/icon/star.svg",
+    value: "5.00",
+    label: "Rates by 1.100",
+    alt: "Star Icon",
+  },
+];
+
 const Hero = () => {
   return (
     <div>
       <section className="px-10 lg:px-140 bg-dark md:bg-gray">
         <div className="h-screen md:h-[60vh] lg:h-[81.1vh] flex flex-col justify-center items-start gap-9 relative -mt-20 md:mt-0">
-          <div className="text-lg md:md lg:text-xl2 text-white font-semibold max-w-[411px]">
+          <h2 className="text-lg lg:text-xl2 text-white font-semibold max-w-[411px]">
             Discover Modern Single Property
-          </div>
-          <p className="font-normal text-sm lg:text-base  sm:max-w-530 md:max-w-[320px] lg:max-w-530 text-justify text-[#F2F2F2]">
+          </h2>
+          <p className="font-normal text-sm lg:text-base  sm:max-w-530 md:max-w-[320px] lg:max-w-530 text-justify text-lightGray">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
             commodo ligula eget dolor. Aenean massa. Cum sociis natoque
             penatibus et magnis dis parturient montes.
@@ -65,28 +80,24 @@ const Hero = () => {
             </CarouselMobile>
           </div>
           {/* Image carousel mobile & tablet*/}
+
         </div>
       </section>
-      <section className="px-10 md:px-140 py-14 mt-32 md:mt-0">
+      <section className="px-10 md:px-140 md:py-14 mt-32 md:mt-0">
         <div className="flex md:justify-center lg:justify-start items-center gap-16 md:gap-24">
-          <div>
-            <div className="flex items-center gap-3">
-              <img src="/assets/icon/point-location.svg" alt="" />
-              <span className="text-md2 md:text-xl font-bold">4.500</span>
+          {Stats.map((stat) => (
+            <div key={stat.label}>
+              <div className="flex items-center gap-3">
+                <img src={stat.icon} alt={stat.alt} />
+                <span className="text-md2 md:text-xl font-bold">
+                  {stat.value}
+                </span>
+              </div>
+              <p className="text-center text-sm md:text-md mt-1">
+                {stat.label}
+              </p>
             </div>
-            <p className="text-center text-sm md:text-md mt-1">
-              Our Square Feets
-            </p>
-          </div>
-          <div>
-            <div className="flex items-center gap-3">
-              <img src="/assets/icon/star.svg" alt="star" />
-              <span className="text-md2 md:text-xl font-bold">5.00</span>
-            </div>
-            <p className="text-center text-sm md:text-md mt-1">
-              Rates by 1.100
-            </p>
-          </div>
+          ))}
         </div>
       </section>
     </div>

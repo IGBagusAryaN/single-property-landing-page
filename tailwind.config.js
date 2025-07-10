@@ -34,6 +34,7 @@ export default {
         softGray: "#8A8A8A",
         verySoftGray: "#BABABA",
         grayBorder: "#E2E2E2",
+        lightGray: "#F2F2F2",
       },
       fontFamily: {
         sans: ["Poppins", "sans-serif"],

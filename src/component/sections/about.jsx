@@ -16,15 +16,15 @@ const About = () => {
 
           <div>
             <div className="text-md text-brand font-semibold">About Us</div>
-            <div className="text-md2 md:text-lg font-semibold mt-3">
+            <h2 className="text-md2 md:text-lg font-semibold mt-3">
               Discover an Extraordinary Property With Us
-            </div>
+            </h2>
 
             {/* Mobile & Tablet Version */}
             <div className="block lg:hidden w-full rounded-md mt-5">
               <img
                 src="/assets/images/about.jpg"
-                alt=""
+                alt="about"
                 className="w-full h-full object-cover rounded-custom"
               />
             </div>
@@ -87,12 +87,11 @@ const About = () => {
           <div className="hidden lg:block w-[595px] h-[367px] rounded-md">
             <img
               src="/assets/images/provide.jpg"
-              alt=""
+              alt="provide"
               className="w-full h-full object-cover rounded-custom"
             />
           </div>
           {/* Dekstop Version */}
-
         </div>
       </section>
     </div>

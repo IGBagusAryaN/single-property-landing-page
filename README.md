@@ -3,7 +3,7 @@
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/skatcher-footer.git
+git clone https://github.com/IGBagusAryaN/single-property-landing-page.git
 cd skatcher-footer
 ```
 
@@ -69,7 +69,9 @@ export default {
 - No unnecessary dependencies added
 
 ## 📸 Preview
-![Preview Screenshot](./public/preview.png)
+![Preview Mobile](./public/preview/mobile.png)
+![Preview Tablet](./public/preview/tablet.png)
+![Preview Dekstop](./public/preview/dekstop.png)
 
 ## 📄 License
 This project is for testing and evaluation purposes only.
