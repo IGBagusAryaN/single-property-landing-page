@@ -69,9 +69,15 @@ export default {
 - No unnecessary dependencies added
 
 ## 📸 Preview
+
+### 🟠 Mobile – 375px
 ![Preview Mobile](./public/preview/mobile.png)
+
+### 🟠 Tablet – 768px
 ![Preview Tablet](./public/preview/tablet.png)
-![Preview Dekstop](./public/preview/dekstop.png)
+
+### 🟠 Desktop – 1440px
+![Preview Desktop](./public/preview/dekstop.png)
 
 ## 📄 License
 This project is for testing and evaluation purposes only.
