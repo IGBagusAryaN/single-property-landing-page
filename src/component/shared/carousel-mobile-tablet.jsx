@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export default function CarouselMobile({
+export default function CarouselMobileTablet({
   children: slides,
   autoSlide = false,
   autoSlideInterval = 3000,
@@ -44,7 +44,7 @@ export default function CarouselMobile({
         >
           <img
             src="./assets/icon/arrow.svg"
-            alt="Previous"
+            alt="previous"
             className="rotate-180"
           />
         </button>
@@ -55,7 +55,7 @@ export default function CarouselMobile({
           onClick={nextSlide}
           className="px-[20px] py-[15px] rounded-full bg-brand shadow-lg flex items-center justify-center text-white hover:bg-hoverBrand transition"
         >
-          <img src="./assets/icon/arrow.svg" alt="Next" />
+          <img src="./assets/icon/arrow.svg" alt="next" />
         </button>
       </div>
     </div>

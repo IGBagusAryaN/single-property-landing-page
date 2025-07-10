@@ -29,7 +29,7 @@ export default function Carousel({ children: slides, autoSlide = false, autoSlid
           onClick={nextSlide}
           className="px-[20px] py-[15px] rounded-full bg-brand shadow-lg flex items-center justify-center text-white hover:bg-hoverBrand transition"
         >
-          <img src="./assets/icon/arrow.svg" alt="Next" />
+          <img src="./assets/icon/arrow.svg" alt="next" />
         </button>
       </div>
     </div>
