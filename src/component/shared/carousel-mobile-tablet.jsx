@@ -23,7 +23,7 @@ export default function CarouselMobileTablet({
   }, [autoSlide, autoSlideInterval]);
 
   return (
-    <div className="relative w-[310px] h-[205px]">
+    <div className="relative w-[310px] xs:w-[280px] h-[205px]">
       <div className="w-full h-full rounded-[10px] overflow-hidden">
         <div
           className="flex transition-transform ease-out duration-500"

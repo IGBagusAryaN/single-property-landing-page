@@ -67,7 +67,7 @@ const Hero = () => {
           {/* Image carousel dekstop */}
 
           {/* Image carousel mobile & tablet*/}
-          <div className="block lg:hidden absolute -bottom-24 md:bottom-auto md:top-32 smx:top-20  md:right-3">
+          <div className="block lg:hidden absolute -bottom-24 md:bottom-auto md:top-32 smx:top-20 md:right-3">
             <CarouselMobile autoSlide={true}>
               {slidesMobile.map((src, i) => (
                 <img
@@ -84,7 +84,7 @@ const Hero = () => {
         </div>
       </section>
       <section className="px-10 md:px-140 md:py-14 mt-32 md:mt-0">
-        <div className="flex md:justify-center lg:justify-start items-center gap-16 md:gap-24">
+        <div className="flex md:justify-center lg:justify-start items-center gap-16 xs:gap-10 md:gap-24">
           {Stats.map((stat) => (
             <div key={stat.label}>
               <div className="flex items-center gap-3">
