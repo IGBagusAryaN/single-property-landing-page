@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function Carousel({ children: slides, autoSlide = false, autoSlideInterval=3000 }){
   const [current, setCurrent] = useState(0);
