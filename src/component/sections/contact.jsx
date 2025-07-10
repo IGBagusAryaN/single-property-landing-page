@@ -54,7 +54,8 @@ const Contact = () => {
             className="w-full h-full object-cover rounded-custom"
           />
         </div>
-         {/* Dekstop version */}
+        {/* Dekstop version */}
+        
       </div>
     </section>
   );
