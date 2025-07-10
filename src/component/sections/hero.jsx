@@ -32,7 +32,7 @@ const Hero = () => {
   return (
     <div>
       <section className="px-10 lg:px-140 bg-dark md:bg-gray">
-        <div className="h-screen md:h-[60vh] lg:h-[81.1vh] flex flex-col justify-center items-start gap-9 relative -mt-20 md:mt-0">
+        <div className="h-screen md:h-[60vh] smx:h-[40vh] lg:h-[81.1vh] flex flex-col justify-center items-start gap-9 relative -mt-20 md:mt-0">
           <h2 className="text-lg lg:text-xl2 text-white font-semibold max-w-[411px]">
             Discover Modern Single Property
           </h2>
@@ -67,7 +67,7 @@ const Hero = () => {
           {/* Image carousel dekstop */}
 
           {/* Image carousel mobile & tablet*/}
-          <div className="block lg:hidden absolute -bottom-24 md:bottom-auto md:top-32 md:right-3">
+          <div className="block lg:hidden absolute -bottom-24 md:bottom-auto md:top-32 smx:top-20  md:right-3">
             <CarouselMobile autoSlide={true}>
               {slidesMobile.map((src, i) => (
                 <img
