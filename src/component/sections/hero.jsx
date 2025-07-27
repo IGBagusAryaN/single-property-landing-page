@@ -36,7 +36,7 @@ const Hero = () => {
           <h2 className="text-lg lg:text-xl2 text-white font-semibold max-w-[411px]">
             Discover Modern Single Property
           </h2>
-          <p className="font-normal text-sm lg:text-base  sm:max-w-530 md:max-w-[320px] lg:max-w-530 text-justify text-lightGray">
+          <p className="font-normal text-sm lg:text-base sm:max-w-530 md:max-w-[320px] lg:max-w-[530px] text-justify text-lightGray">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
             commodo ligula eget dolor. Aenean massa. Cum sociis natoque
             penatibus et magnis dis parturient montes.
@@ -67,7 +67,7 @@ const Hero = () => {
           {/* Image carousel dekstop */}
 
           {/* Image carousel mobile & tablet*/}
-          <div className="block lg:hidden absolute -bottom-24 md:bottom-auto md:top-32 smx:top-20 md:right-3">
+          <div className="block lg:hidden absolute -bottom-24 md:bottom-auto md:top-32 smx:top-20 xs:mt-6 md:right-3">
             <CarouselMobile autoSlide={true}>
               {slidesMobile.map((src, i) => (
                 <img
